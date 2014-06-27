@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	
+    <item
+	    android:title="My Location"
+	    android:id="@+id/showMyLocation" />    
+	    
+	<item
+	    android:title="Get Route"
+	    android:id="@+id/showRoute"  />
+	
+	<item
+	    android:title="Weather"
+	    android:id="@+id/showWeather" />    
+	    
+	<item
+	    android:title="Share Location"
+	    android:id="@+id/shareLocation"  />
+	
+	<!--  <item
+	    android:title="Remote Weather"
+	    android:id="@+id/remoteWeather" />    -->
+	    
+	<item
+	    android:title="Traffic"
+	    android:id="@+id/traffic"  />
+
+</menu>

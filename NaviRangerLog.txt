@@ -1,0 +1,242 @@
+commit d3c605d8691d4572cb113c6e7777faf6536911c7
+Author: Yogesh Paul <yogeshpaul@gmail.com>
+Date:   Sat Apr 28 06:26:51 2012 -0400
+
+    Resolved git merge issues. No new functionality
+
+commit e80effb1a8095f6f2d765530cd1827c8b236a9e2
+Merge: a9f74f2 d762f02
+Author: Yogesh Paul <yogeshpaul@gmail.com>
+Date:   Sat Apr 28 06:21:43 2012 -0400
+
+    Some class files being shown as unmerges, just adding them back. No new functionality
+
+commit a9f74f25c6720bc645db724b945e6e0cdcb1ee1e
+Author: Yogesh Paul <yogeshpaul@gmail.com>
+Date:   Sat Apr 28 06:02:14 2012 -0400
+
+    code cleaning
+
+commit 360e63540811061b207e281faeebdade17177ff7
+Author: Yogesh Paul <yogeshpaul@gmail.com>
+Date:   Thu Apr 26 05:44:15 2012 -0400
+
+    Finalized things. Minor modifications. Working code for demo
+
+commit d762f02e007f0360360da372c843d7001868b70e
+Author: Yogesh Paul <yogeshpaul@gmail.com>
+Date:   Thu Apr 26 05:44:15 2012 -0400
+
+    Added voice commands for fbshare and commands like how can i go to XYZ
+
+commit 615c33f9acb6e834d64caa726c9e729c75432911
+Author: Yogesh Paul <yogeshpaul@gmail.com>
+Date:   Wed Apr 25 19:04:11 2012 -0400
+
+    Made route more accurate. For current location now it shows from user's precise location that user's city. Added FB functionality, requires some modificaiton. added some files too
+
+commit ac66d63b5574b9666238b932f973bb80e60eac62
+Author: Yogesh Paul <yogeshpaul@gmail.com>
+Date:   Wed Apr 25 03:47:40 2012 -0400
+
+    FB functionality, requires some modificaiton. added files too
+
+commit f03e0c9f0679be91390fa07370faf38732b6fd54
+Author: Yogesh Paul <yogeshpaul@gmail.com>
+Date:   Mon Apr 23 23:11:24 2012 -0400
+
+    NLParser: code for drawRoute from/to and viceversa and using regex and jaav pattern class. Also some code cleaning by removing prolog, eliza code
+
+commit d8182477144466cb60ecfa0b2d63abacb339351c
+Author: Yogesh Paul <yogeshpaul@gmail.com>
+Date:   Sun Apr 22 06:24:32 2012 -0400
+
+    Voice based drawRoute working for commands like how can i go from x to yyyy
+
+commit 0a81191ea565b6dd93b0e3beeb8109a753aed335
+Author: Yogesh Paul <yogeshpaul@gmail.com>
+Date:   Tue Apr 17 01:39:24 2012 -0400
+
+    Voice commands working for traffic. For weather now using regular expressions instead of String.contains() method
+
+commit e44ae7632745f2b158660979c4ae2b74597a3129
+Author: Yogesh Paul <yogeshpaul@gmail.com>
+Date:   Tue Apr 17 00:22:38 2012 -0400
+
+    Added files UserInfo and weather drawables to git repository
+
+commit fa7234789443259579f42c2d94379dea26b6cf6c
+Author: Yogesh Paul <yogeshpaul@gmail.com>
+Date:   Mon Apr 16 22:36:07 2012 -0400
+
+    Weather by voice working for current and remote location.
+
+commit 100eacb45c71a8a39da4cb8eb7cbca24dfdfd089
+Author: Yogesh Paul <yogeshpaul@gmail.com>
+Date:   Sun Apr 15 21:46:39 2012 -0400
+
+    Adding Parser and NLResult files for project
+
+commit 2ae12ae64f7a65dbdee0ba0880d6b261984f97dd
+Author: Yogesh Paul <yogeshpaul@gmail.com>
+Date:   Sun Apr 15 21:45:34 2012 -0400
+
+    Weather by voice working for current location. For remote it shows on current location itself, need to get leopoint for remote location
+
+commit d72a940cea049a0fffc448f6ee0870603190f1c9
+Author: Yogesh Paul <yogeshpaul@gmail.com>
+Date:   Sat Apr 14 23:53:57 2012 -0400
+
+    Navigation working fine: shows route between 2 locations given in LocNames Activity. Needs to look for more accuracy and with current location
+
+commit f2849f38934852f673b89ff8bd165181643ec1f4
+Author: Yogesh Paul <yogeshpaul@gmail.com>
+Date:   Sat Apr 14 23:14:46 2012 -0400
+
+    Bug fixed: now LocNames activity gets closed on button press and returns the results back
+
+commit 1595ed899dfcd59c080088993ba0f889ecf11f0b
+Author: Yogesh Paul <yogeshpaul@gmail.com>
+Date:   Sat Apr 14 21:08:42 2012 -0400
+
+    Can pass values from LocNames to NaviRangerActivity. LocNames is activity where user can enter source and destinations
+
+commit 69b5117e9ef9b0f066d61b9a45f43b8401dad01c
+Author: Yogesh Paul <yogeshpaul@gmail.com>
+Date:   Sat Apr 14 15:32:12 2012 -0400
+
+    Added text with Image for weather. Now temp shows with type of icon
+
+commit 4fe7f83992b7d97cb36066ee94badf3883d18edc
+Author: Yogesh Paul <yogeshpaul@gmail.com>
+Date:   Sat Apr 14 12:37:25 2012 -0400
+
+    Fixed bug for exception handling, set getBestProvider to true for more accurate positioning
+
+commit 18a86d45c4d92d76203072ddafe28aded6aa2b59
+Author: Yogesh Paul <yogeshpaul@gmail.com>
+Date:   Sat Apr 14 12:26:21 2012 -0400
+
+    Fixed bug for current location, now shows correct current location
+
+commit 8bb4ed955f48753c35f9d6b2f39036e7b4485031
+Author: Yogesh Paul <yogeshpaul@gmail.com>
+Date:   Fri Apr 13 01:23:36 2012 -0400
+
+    Test commit to check filel system state on github. Nothing meaningful added in this commit
+
+commit 9389c71b36686affdd63f6e1e5c76db9a4e273b7
+Author: Yogesh Paul <yogeshpaul@gmail.com>
+Date:   Fri Apr 13 00:59:31 2012 -0400
+
+    Traffic updated/remove traffic from menu button working now
+
+commit 9f16e9dfa792530e348b80546406606b626903f6
+Author: Yogesh Paul <yogeshpaul@gmail.com>
+Date:   Fri Apr 13 00:38:37 2012 -0400
+
+    completed code for adding weather icon on maps, displaying routes, added corresponding layouts files, needs more debugging
+
+commit 5c4775e14a7884a8d008501db33e5ab319bada87
+Author: Yogesh Paul <yogeshpaul@gmail.com>
+Date:   Thu Apr 12 19:58:29 2012 -0400
+
+    Added Some part of weather code from Shian, commit for consitency
+
+commit d549b6447911d00f839c61a3239f7eb0751ff285
+Author: Yogesh Paul <yogeshpaul@gmail.com>
+Date:   Wed Apr 11 20:19:13 2012 -0400
+
+    Added text to speech, now can speak back to user
+
+commit d645a3ad66dadddfd9d3e15c5813bbba70b5d07b
+Merge: 481424e aa088e1
+Author: Yogesh Paul <yogeshpaul@gmail.com>
+Date:   Wed Apr 11 19:03:34 2012 -0400
+
+    Merge branch 'feature/voice' into develop
+
+commit aa088e1f075ba19b94ca966958eddd9e74a24623
+Author: Yogesh Paul <yogeshpaul@gmail.com>
+Date:   Wed Apr 11 19:02:54 2012 -0400
+
+    Added menu for application
+
+commit b8c96fe016bd02cfb333dbeb77e4b585f16eaa13
+Author: Yogesh Paul <yogeshpaul@gmail.com>
+Date:   Tue Apr 10 19:04:28 2012 -0400
+
+    Commit for publishing to github, required commit for 2prolog file
+
+commit 5e0c18bb9e78496d7a6e913b21cc81f49211ab7d
+Author: Yogesh Paul <yogeshpaul@gmail.com>
+Date:   Tue Apr 10 19:01:04 2012 -0400
+
+    Voice recognition working, need to work on elizaTest and add 2p.jar external library to apk
+
+commit 481424e9f76dab76f74a4a0963698677e61e38c6
+Author: Yogesh Paul <yogeshpaul@gmail.com>
+Date:   Tue Apr 10 16:36:42 2012 -0400
+
+    NaviRanger: Added icon for speak button on xml
+
+commit 41e3217f5bb63f093648af97518ebc056fe90c2b
+Author: Yogesh Paul <yogeshpaul@gmail.com>
+Date:   Tue Apr 10 16:18:20 2012 -0400
+
+    NaviRanger: Added basic code for voice recognition with eliza.pl
+
+commit 86bcac74e0a59d4c04e1cc3f395b7ae14bb610f3
+Merge: 6d049b2 10c8ccb
+Author: Yogesh Paul <yogeshpaul@gmail.com>
+Date:   Mon Apr 9 23:00:50 2012 -0400
+
+    Merge branch 'feature/basicLoc' into develop
+
+commit 10c8ccbfc4c1118ce41ed153871c84cf450c5ecf
+Author: Yogesh Paul <yogeshpaul@gmail.com>
+Date:   Mon Apr 9 22:59:46 2012 -0400
+
+    NaviRanger144: Added functionality for location update/tracker  with locationListener
+
+commit b10496ad985926e8c2c7479577ccbece90b5d38d
+Author: Yogesh Paul <yogeshpaul@gmail.com>
+Date:   Mon Apr 9 21:51:56 2012 -0400
+
+    NaviRanger141:Added untracked files to project
+
+commit df51962063be585be30b60b7502e39f89aa070fb
+Author: Yogesh Paul <yogeshpaul@gmail.com>
+Date:   Mon Apr 9 21:50:11 2012 -0400
+
+    NaviRanger141: Place a pinpoint anywhere on the map
+
+commit c57761474b5c4ad9a73b08dbc2d8dc4d434db12e
+Author: Yogesh Paul <yogeshpaul@gmail.com>
+Date:   Mon Apr 9 21:22:58 2012 -0400
+
+    NaviRanger 138: Toggle view between satellite and street view
+
+commit 77225faf9fc50703ba6d9bba15288249d7eac4eb
+Author: Yogesh Paul <yogeshpaul@gmail.com>
+Date:   Mon Apr 9 21:14:10 2012 -0400
+
+    NaviRanger 137: Get address of touched point and show as Toast
+
+commit 23eb4e1e6fcc3908a6591337a73359885b0ec2c1
+Author: Yogesh Paul <yogeshpaul@gmail.com>
+Date:   Mon Apr 9 21:00:25 2012 -0400
+
+    NaviRanger 135: compass, overlay and controller with animate to somewhere in Germany
+
+commit ffc809f500c8b7e17aff461a6a1dc749341ca6c8
+Author: Yogesh Paul <yogeshpaul@gmail.com>
+Date:   Mon Apr 9 20:28:23 2012 -0400
+
+    Tested Google maps on emulator with zoom function
+
+commit 6d049b20059baef167479d0f9fd47e0d93d03ab0
+Author: Yogesh Paul <yogeshpaul@gmail.com>
+Date:   Mon Apr 9 18:49:23 2012 -0400
+
+    Created git repository
